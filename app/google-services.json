@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "1045280214720",
+    "firebase_url": "https://car-pooling-app-f1bb3.firebaseio.com",
+    "project_id": "car-pooling-app-f1bb3",
+    "storage_bucket": "car-pooling-app-f1bb3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045280214720:android:8b0fb2f16a07091c",
+        "android_client_info": {
+          "package_name": "rathore.gajendra.sharedridebooking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045280214720-fj2ekr01ikt0578huidg0l7p8mvus53i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "rathore.gajendra.sharedridebooking",
+            "certificate_hash": "6AB8F1BB4F99831C9EDED329B5D9EBB3CCE6B398"
+          }
+        },
+        {
+          "client_id": "1045280214720-tsirsah7vnp5bguugie1dpdc76lt6n7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF7CAGf45VFLnmOPitmH0jN-1EHxQyfzI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1045280214720-tsirsah7vnp5bguugie1dpdc76lt6n7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045280214720:android:3393f8a45932dc74",
+        "android_client_info": {
+          "package_name": "gajendra.rathore.carpooling"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1045280214720-tsirsah7vnp5bguugie1dpdc76lt6n7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBF7CAGf45VFLnmOPitmH0jN-1EHxQyfzI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
