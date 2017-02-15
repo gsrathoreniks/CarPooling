@@ -57,6 +57,13 @@
             android:id="@+id/Des2"/>
     </LinearLayout>
 
+    <Button
+        android:text="Find Yourself"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="100dp"
+        android:id="@+id/button2" />
 
 
 </LinearLayout>

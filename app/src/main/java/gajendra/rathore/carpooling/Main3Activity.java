@@ -1,9 +1,11 @@
 package gajendra.rathore.carpooling;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,6 +24,7 @@ public class Main3Activity extends AppCompatActivity {
     TextView s1, d1, s2, d2;
     LinearLayout l1;
     LinearLayout l2;
+    Button loc;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,6 +37,18 @@ public class Main3Activity extends AppCompatActivity {
         s2 = (TextView) findViewById(R.id.Sou2);
         d1 = (TextView) findViewById(R.id.Des);
         d2 = (TextView) findViewById(R.id.Des2);
+        loc =(Button)findViewById(R.id.button2);
+
+        // Goes to Location Page from Main3Activity to Location
+        loc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Main3Activity.this,Location.class));
+            }
+        });
+        //END
+
+
         l1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
